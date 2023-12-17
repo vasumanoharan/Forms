@@ -3,7 +3,7 @@ function fun1() {
     var c1 = content.value
     var content2 = document.getElementById('input2')
     var c2 = content2.value
-    console.log(c1, c2);
+    // console.log(c1, c2);
     var check = [
         {
             user_name: "mano",
@@ -20,6 +20,7 @@ function fun1() {
         }
     }
     if (conf) {
+        window.location.assign('Details.html')
         alert("login successful");
     }
     else if (conf == false) {
